@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.terminal-effect {
+  border: 1px solid #00ff00;
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.3);
+}
+
+.glow-effect {
+  text-shadow: 0 0 5px rgba(0, 255, 0, 0.5);
+}
+
+.matrix-bg {
+  background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    repeating-linear-gradient(transparent, transparent 50px, rgba(0, 255, 0, 0.1) 50px, rgba(0, 255, 0, 0.1) 51px);
+}
